@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
   <head>
     <title>모든 좋은 것을 함께 나누고 싶은 백승아 입니다.</title>
@@ -13,6 +9,8 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body class="is-preload" style="scroll-behavior: smooth">
     <!-- Wrapper -->
@@ -20,25 +18,33 @@
       <!-- Intro -->
       <section class="intro">
         <header>
-          <h2 class="!text-[20px] lg:!text-[30px] !mb-[15px] font-[600] tracking-[-0.8px] !text-[#484848]">
-            모든 좋은 것을 함께 <br class="hidden md:!block" />나누고 싶은 <span class="text-[#fff]">백승아</span> 🍑
+          <h2 class="!text-[17px] lg:!text-[30px] !mb-[0px] font-[600] tracking-[-0.8px] !text-[#fff]">
+            모든 좋은 것을 함께 <br class="hidden md:!block" />나누고 싶은 <span class="text-[#febe98]">백승아</span> 🍑
           </h2>
-          <p class="!font-[500] mb-[20px] !text-[15px] flex justify-end w-full gap-x-[8px]">
-            <a class="scrolly animate-pulse" href="#profile"><span class="text-[#fff] !font-[700] !opacity-[1]">P</span>rofile</a>
-            <a class="scrolly animate-pulse" href="#Experience"
-              ><span class="text-[#fff] !font-[700] !opacity-[1]">E</span>xperience</a
+          <p class="!font-[500] my-[30px] !text-[15px] flex lg:justify-end w-full gap-x-[8px]">
+            <a class="scrolly text-[#fff]" href="#profile"
+              ><span class="text-[#febe98] !font-[700] !opacity-[1]">P</span><span class="animate-pulse">rofile</span></a
             >
-            <a class="scrolly animate-pulse" href="#Achieve"><span class="text-[#fff] !font-[700] !opacity-[1]">A</span>chieve</a>
-            <a class="scrolly animate-pulse" href="#Career"><span class="text-[#fff] !font-[700] !opacity-[1]">C</span>areer</a>
-            <a class="scrolly animate-pulse" href="#Help"><span class="text-[#fff] !font-[700] !opacity-[1]">H</span>elp</a>
+            <a class="scrolly text-[#fff]" href="#Experience"
+              ><span class="text-[#febe98] !font-[700] !opacity-[1]">E</span><span class="animate-pulse">xperience</span></a
+            >
+            <a class="scrolly text-[#fff]" href="#Achieve"
+              ><span class="text-[#febe98] !font-[700] !opacity-[1]">A</span><span class="animate-pulse">chieve</span></a
+            >
+            <a class="scrolly text-[#fff]" href="#Career"
+              ><span class="text-[#febe98] !font-[700] !opacity-[1]">C</span><span class="animate-pulse">areer</span></a
+            >
+            <a class="scrolly text-[#fff]" href="#Help"
+              ><span class="text-[#febe98] !font-[700] !opacity-[1]">H</span><span class="animate-pulse">elp</span></a
+            >
           </p>
-          <p class="!font-[400] my-[20px] tracking-[-0.4px]">Every good thing starts with a dream</p>
-          <ul class="actions">
-            <li>
-              <a href="#profile" class="scrolly flex items-center jusitfy-center w-[30px] h-[auto] animate-bounce">
+          <p class="!font-[400] my-[20px] tracking-[-0.4px] text-[#fff]">Every good thing starts with a dream</p>
+          <ul class="actions !block">
+            <li class="!pl-[16px] lg:!pl-[90%]">
+              <a href="#profile" class="scrolly flex items-center jusitfy-center !w-[30px] h-[auto] animate-bounce">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                   <title />
-                  <g data-name="Layer 2" id="Layer_2" fill="#666">
+                  <g data-name="Layer 2" id="Layer_2" fill="#febe98">
                     <path
                       d="M29.58,15.19l-14-10A1,1,0,0,0,14,6v6.63L3.58,5.19A1,1,0,0,0,2,6V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,3,27a1,1,0,0,0,.58-.19L14,19.37V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,15,27a1,1,0,0,0,.58-.19l14-10a1,1,0,0,0,0-1.62Z"
                     />
@@ -49,23 +55,208 @@
           </ul>
         </header>
         <div class="content">
-          <span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+          <span class="image fill" data-position="center"><img class="opacity-80" src="images/main.webp" alt="" /></span>
         </div>
       </section>
 
       <!-- Section -->
       <section id="profile">
         <header>
-          <h2 class="!text-[20px] lg:!text-[30px] !mb-[5px] font-[600] tracking-[-0.8px] !lowercase !text-[#484848]">
-            <span class="animate-pulse !uppercase text-[#fff] font-[700]">P</span>rofile
+          <h2 class="!text-[20px] lg:!text-[30px] !mb-[5px] font-[600] tracking-[-0.8px] !lowercase !text-[#fff]">
+            <span class="animate-pulse !uppercase text-[#febe98] font-[700]">P</span>rofile
           </h2>
-          <p class="!font-[700] mb-[30px] tracking-[-0.8px] !text-[#484848]">프로필</p>
+          <p class="!font-[700] mb-[30px] tracking-[-0.8px] !text-[#fff]">프로필</p>
           <ul class="actions">
             <li>
-              <a href="#experience" class="scrolly flex items-center jusitfy-center w-[30px] h-[auto] animate-bounce">
+              <a href="#experience" class="scrolly hidden lg:flex items-center jusitfy-center !w-[30px] h-[auto] animate-bounce">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                   <title />
-                  <g data-name="Layer 2" id="Layer_2" fill="#666">
+                  <g data-name="Layer 2" id="Layer_2" fill="#febe98">
+                    <path
+                      d="M29.58,15.19l-14-10A1,1,0,0,0,14,6v6.63L3.58,5.19A1,1,0,0,0,2,6V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,3,27a1,1,0,0,0,.58-.19L14,19.37V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,15,27a1,1,0,0,0,.58-.19l14-10a1,1,0,0,0,0-1.62Z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div class="content flex flex-col items-center">
+          <span
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            class="image main w-[95%] lg:!w-[60%] mx-auto mb-[20px] rounded-[10px] overflow-hidden hover:opacity-80"
+            style="box-shadow: 1px 1px 5px 5px lightgray; transition: 0.5s"
+            ><img src="images/prof.png" alt=""
+          /></span>
+          <!-- component -->
+          <div class="w-full relative flex flex-col justify-center">
+            <div class="w-full mx-auto">
+              <div class="flex flex-col justify-center">
+                <div class="w-full max-w-3xl mx-auto">
+                  <!-- Vertical Timeline #2 -->
+                  <div
+                    class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent"
+                  >
+                    <!-- Item #1 -->
+                    <div
+                      class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+                    >
+                      <!-- Icon -->
+                      <div
+                        class="flex items-center justify-center w-10 h-10 rounded-full border border-white !bg-[#febe98] group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+                      >
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                          <path
+                            fill-rule="nonzero"
+                            d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+                          />
+                        </svg>
+                      </div>
+                      <!-- Card -->
+                      <div
+                        class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+                      >
+                        <div class="flex items-center justify-between space-x-2 mb-[15px]">
+                          <div class="text-[17px] font-bold text-slate-900">ABOUT</div>
+                          <time class="text-xs font-[700] text-[#febe98]">인적사항</time>
+                        </div>
+                        <p class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">Name : 백승아</p>
+                        <p class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">Birth : 2000.01.23</p>
+                        <a href="tel:" class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">
+                          Phone : 010.2449.2953 </a
+                        ><br />
+                        <a
+                          href="mailto:ehddk0123@naver.com"
+                          class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]"
+                        >
+                          Email : ehddk0123@naver.com
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Item #2 -->
+                    <div
+                      class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+                    >
+                      <!-- Icon -->
+                      <div
+                        class="flex items-center justify-center w-10 h-10 rounded-full border border-white !bg-[#febe98] group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+                      >
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                          <path
+                            fill-rule="nonzero"
+                            d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+                          />
+                        </svg>
+                      </div>
+                      <!-- Card -->
+                      <div
+                        class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+                      >
+                        <div class="flex items-center justify-between space-x-2 mb-[15px]">
+                          <div class="text-[17px] font-bold text-slate-900">Certification</div>
+                          <time class="text-xs font-[700] text-[#febe98]">자격사항</time>
+                        </div>
+                        <p class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">
+                          2024 백석예술대학 졸업
+                        </p>
+                        <p class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">2023 지휘 자격증 1급</p>
+                        <p class="text-[#484848] font-[400] tracking-[-0.6px] leading-[150%] text-[16px]">
+                          2021 운전면허 2종 보통
+                        </p>
+                      </div>
+                    </div>
+                    <!-- Item #3 -->
+                    <div
+                      class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
+                    >
+                      <!-- Icon -->
+                      <div
+                        class="flex items-center justify-center w-10 h-10 rounded-full border border-white !bg-[#febe98] group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2"
+                      >
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                          <path
+                            fill-rule="nonzero"
+                            d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
+                          />
+                        </svg>
+                      </div>
+                      <!-- Card -->
+                      <div
+                        class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow"
+                      >
+                        <div class="flex items-center justify-between space-x-2 mb-[15px]">
+                          <div class="text-[17px] font-bold text-slate-900">Skills</div>
+                          <time class="text-xs font-[700] text-[#febe98]">보유능력</time>
+                        </div>
+                        <p class="text-[#484848] font-[500] tracking-[-0.2px] leading-[150%] text-[16px]">- Composition</p>
+                        <p class="text-[#484848] font-[500] tracking-[-0.2px] leading-[150%] text-[16px]">- Arangement</p>
+                        <p class="text-[#484848] font-[500] tracking-[-0.2px] leading-[150%] text-[16px]">- Play piano</p>
+                        <p class="text-[#484848] font-[500] tracking-[-0.2px] leading-[150%] text-[16px]">- Produce</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End: Vertical Timeline #2 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section -->
+      <section id="experience">
+        <header>
+          <h2 class="!text-[20px] lg:!text-[30px] !mb-[5px] font-[600] tracking-[-0.8px] !lowercase !text-[#fff]">
+            <span class="animate-pulse !uppercase text-[#febe98] font-[700]">E</span>xperience
+          </h2>
+          <p class="!font-[700] mb-[30px] tracking-[-0.8px] !text-[#fff]">다양한 음악 활동 경험</p>
+          <ul class="actions">
+            <li>
+              <a href="#achieve" class="scrolly hidden lg:flex items-center jusitfy-center !w-[30px] h-[auto] animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <title />
+                  <g data-name="Layer 2" id="Layer_2" fill="#febe98">
+                    <path
+                      d="M29.58,15.19l-14-10A1,1,0,0,0,14,6v6.63L3.58,5.19A1,1,0,0,0,2,6V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,3,27a1,1,0,0,0,.58-.19L14,19.37V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,15,27a1,1,0,0,0,.58-.19l14-10a1,1,0,0,0,0-1.62Z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div class="content flex items-center flex-col">
+          <ul data-aos="fade-left" data-aos-duration="1200" class="feature-icons">
+            <li class="icon solid fa-file-audio">
+              건국대학교 학생 앱<br />
+              BGM 제작
+            </li>
+            <li class="icon solid fa-file-audio">CCM 음반 총괄 프로듀싱</li>
+            <li class="icon solid fa-music">
+              상지대학교 축제<br />
+              공연 반주
+            </li>
+            <li class="icon solid fa-eye">뮤지컬, 콘서트 등 다양한 공연들을 경험</li>
+          </ul>
+          <a data-aos="fade-left" data-aos-duration="1200" href="#Carrer" class="text-[15px] !mx-auto !text-center">+ 더보기</a>
+        </div>
+      </section>
+
+      <!-- Section -->
+      <section id="achieve">
+        <header>
+          <h2 class="!text-[20px] lg:!text-[30px] !mb-[5px] font-[600] tracking-[-0.8px] !lowercase !text-[#fff]">
+            <span class="animate-pulse !uppercase text-[#febe98] font-[700]">A</span>chieve
+          </h2>
+          <p class="!font-[700] mb-[30px] tracking-[-0.8px] !text-[#fff]">역량과 성취</p>
+          <ul class="actions">
+            <li>
+              <a href="#Career" class="scrolly hidden lg:flex items-center jusitfy-center !w-[30px] h-[auto] animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <title />
+                  <g data-name="Layer 2" id="Layer_2" fill="#febe98">
                     <path
                       d="M29.58,15.19l-14-10A1,1,0,0,0,14,6v6.63L3.58,5.19A1,1,0,0,0,2,6V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,3,27a1,1,0,0,0,.58-.19L14,19.37V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,15,27a1,1,0,0,0,.58-.19l14-10a1,1,0,0,0,0-1.62Z"
                     />
@@ -76,110 +267,100 @@
           </ul>
         </header>
         <div class="content">
-          <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent
-            taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh
-            porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem
-            adipiscing.
-          </p>
-          <span class="image main"><img src="images/prof.png" alt="" /></span>
-        </div>
-      </section>
-
-      <!-- Section -->
-      <section id="experience">
-        <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
-        </header>
-        <div class="content">
-          <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices
-            sed ultricies condimentum.
-          </p>
-          <ul class="feature-icons">
-            <li class="icon solid fa-laptop">Consequat tempus</li>
-            <li class="icon solid fa-bolt">Etiam adipiscing</li>
-            <li class="icon solid fa-signal">Libero nullam</li>
-            <li class="icon solid fa-cog">Blandit condimentum</li>
-            <li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
-            <li class="icon solid fa-code">Nibh amet venenatis</li>
-          </ul>
-          <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl
-            et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.
-          </p>
+          <div class="gallery">
+            <a
+              data-aos="flip-down"
+              data-aos-duration="800"
+              class="landscape"
+              style="box-shadow: 1px 1px 8px 1px lightgray; border-radius: 4px !important"
+              href="images/a2.jpg"
+              ><img src="images/a2.jpg" alt=""
+            /></a>
+            <a
+              data-aos="flip-down"
+              data-aos-duration="800"
+              class=""
+              style="box-shadow: 1px 1px 8px 1px lightgray; border-radius: 4px !important"
+              href="images/a1.jpg"
+              ><img src="images/a1.jpg" alt=""
+            /></a>
+            <a
+              data-aos="flip-down"
+              data-aos-duration="800"
+              class=""
+              style="box-shadow: 1px 1px 8px 1px lightgray; border-radius: 4px !important"
+              href="images/a3.jpg"
+              ><img src="images/a3.jpg" alt=""
+            /></a>
+            <a
+              data-aos="flip-down"
+              data-aos-duration="800"
+              class=""
+              style="box-shadow: 1px 1px 8px 1px lightgray; border-radius: 4px !important"
+              href="images/a4.jpg"
+              ><img src="images/a4.jpg" alt=""
+            /></a>
+            <a
+              data-aos="flip-down"
+              data-aos-duration="800"
+              class=""
+              style="box-shadow: 1px 1px 8px 1px lightgray; border-radius: 4px !important"
+              href="images/a5.jpg"
+              ><img src="images/a5.jpg" alt=""
+            /></a>
+          </div>
         </div>
       </section>
 
       <!-- Section -->
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2 class="!text-[20px] lg:!text-[30px] !mb-[5px] font-[600] tracking-[-0.8px] !lowercase !text-[#fff]">
+            <span class="animate-pulse !uppercase text-[#febe98] font-[700]">C</span>areer
+          </h2>
+          <p class="!font-[700] mb-[30px] tracking-[-0.8px] !text-[#fff]">성장을 향한 발자취</p>
+          <ul class="actions">
+            <li>
+              <a href="#Career" class="scrolly hidden lg:flex items-center jusitfy-center !w-[30px] h-[auto] animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <title />
+                  <g data-name="Layer 2" id="Layer_2" fill="#febe98">
+                    <path
+                      d="M29.58,15.19l-14-10A1,1,0,0,0,14,6v6.63L3.58,5.19A1,1,0,0,0,2,6V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,3,27a1,1,0,0,0,.58-.19L14,19.37V26a1,1,0,0,0,.54.89A1.07,1.07,0,0,0,15,27a1,1,0,0,0,.58-.19l14-10a1,1,0,0,0,0-1.62Z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </header>
         <div class="content">
-          <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum
-            dolor sit nullam.
-          </p>
-
-          <!-- Section -->
-          <section>
-            <header>
-              <h3>Erat aliquam</h3>
-              <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor
-                sit amet, consectetur amet do eiusmod tempor incididunt ipsum suspendisse ultrices gravida.
-              </p>
-            </header>
-            <div class="content">
-              <div class="gallery">
-                <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-              </div>
-            </div>
-          </section>
-
-          <!-- Section -->
-          <section>
-            <header>
-              <h3>Nisl consequat</h3>
-              <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue.
-                Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia
-                ipsum maximus.
-              </p>
-            </header>
-            <div class="content">
-              <div class="gallery">
-                <a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-              </div>
-            </div>
-          </section>
-
-          <!-- Section -->
-          <section>
-            <header>
-              <h3>Lorem gravida</h3>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius
-                sed enim lorem ullamcorper dolore. ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div class="content">
-              <div class="gallery">
-                <a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-                <a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
-              </div>
-            </div>
-          </section>
+          <div class="gallery">
+            <a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+            <a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+            <a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+          </div>
         </div>
       </section>
+
+      <!-- Section -->
+      <section>
+        <header>
+          <h3>Lorem gravida</h3>
+          <p>
+            Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed
+            enim lorem ullamcorper dolore. ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.
+          </p>
+        </header>
+        <div class="content">
+          <div class="gallery">
+            <a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+            <a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+            <a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+          </div>
+        </div>
+      </section>
+      \
 
       <!-- Section -->
       <section>
@@ -545,5 +726,8 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
